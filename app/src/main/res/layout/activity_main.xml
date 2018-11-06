@@ -4,6 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/color_primary_dark"
     tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/fragment_calculator"
+        class="com.trantan.calculator.CalculatorFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </android.support.constraint.ConstraintLayout>
